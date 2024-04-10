@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
-  productGUID: ad109d5850958454cab7e50e7c1a65e3
+  productGUID: d13e0c536959e6c4e86e9745ba0203b6
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Group 9 project
+  productName: Space SHMUP part1
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -682,11 +682,11 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 2
-  cloudProjectId: 83cfa455-89d1-4b91-aeeb-f1a679c6d0f6
+  activeInputHandler: 0
+  cloudProjectId: 761d65ea-c845-4666-b044-436d8e292274
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Group 9 project
+  projectName: Space SHMUP part1
   organizationId: nick_lofl4
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

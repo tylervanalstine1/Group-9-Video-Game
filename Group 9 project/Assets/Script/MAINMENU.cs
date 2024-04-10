@@ -7,7 +7,7 @@ public class MAINMENU : MonoBehaviour
     // Start is called before the first frame update
    public void play()
     {
-        
+        //loads the next lvl
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1);
 
 
@@ -16,6 +16,7 @@ public class MAINMENU : MonoBehaviour
     // Update is called once per frame
     public void quit()
     {
+        //this quits the game
     Debug.Log ("quit");
     Application.Quit();
         
