@@ -9,11 +9,13 @@ public class Player : MonoBehaviour
     [Header("Inscribed")]
     //floats used 
     public float speed = 5f; //walk speed
+    public float jumpPower = 10f; //Jumping power
     //public float rollMult = -45;
     //public float pitchMult = 30;
     [Header("Dynamic")]
     Vector2 moveInput; //2D vector determining what buttons are being pressed
     public bool IsMoving { get; private set; }
+    public bool canJump = false; //Whether or not the player can jump
 
     Rigidbody rb; //The player's Rigidbody component
 
@@ -38,6 +40,12 @@ public class Player : MonoBehaviour
         pos.x += hAxis * speed * Time.deltaTime;
         pos.z += vAxis * speed * Time.deltaTime;
         transform.position = pos;
+
+        if(Input.GetKeyDown("space") && canJump){
+            Vector3 vel = rb.velocity;
+            vel.y = jumpPower;
+            rb.velocity = vel;
+        }
 
 
        // transform.rotation = Quaternion.Euler(vAxis * pitchMult, hAxis * rollMult, 0);
