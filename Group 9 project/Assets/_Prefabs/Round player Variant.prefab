@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: b78408886908b1a42bafe1c5266487ec, type: 2}
+    - target: {fileID: 7692537391115891594, guid: 2e18621553e1e234abb56957b01fe0cb, type: 3}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
     - target: {fileID: 8236421880240947486, guid: 2e18621553e1e234abb56957b01fe0cb, type: 3}
       propertyPath: m_Name
       value: Round player Variant
@@ -4868,3 +4872,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+  jumpPower: 10
+  canJump: 1
