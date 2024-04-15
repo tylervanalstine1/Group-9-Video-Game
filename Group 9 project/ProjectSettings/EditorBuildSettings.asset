@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/_Scenes/Level_1_new.unity
     guid: 962874a404cb44342b858a9c0307f8c3
   - enabled: 1
-    path: Assets/_Scenes/Level_1_old.unity
-    guid: fff0e69ac07913a4d96b5517b166afb8
+    path: Assets/_Scenes/reallvl1line.unity
+    guid: 9a5fd969d58d2eb46913755072ed734c
+  - enabled: 1
+    path: Assets/_Scenes/lvl2jump.unity
+    guid: 26282948b8a55574292d6c3d619db95c
+  - enabled: 1
+    path: Assets/_Scenes/lvl3moving.unity
+    guid: cbcd4d09c3f7b984492e22baac7ea5e8
+  - enabled: 1
+    path: Assets/_Scenes/lvl4_malwar.unity
+    guid: 9dbd9d06271022d419c243fe7e3af33d
   m_configObjects: {}

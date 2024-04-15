@@ -57,7 +57,11 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b78408886908b1a42bafe1c5266487ec, type: 2}
     - target: {fileID: 8236421880240947486, guid: 2e18621553e1e234abb56957b01fe0cb, type: 3}
       propertyPath: m_Name
-      value: Round player
+      value: Round player Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8236421880240947486, guid: 2e18621553e1e234abb56957b01fe0cb, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -6518914238420612452, guid: 2e18621553e1e234abb56957b01fe0cb, type: 3}
