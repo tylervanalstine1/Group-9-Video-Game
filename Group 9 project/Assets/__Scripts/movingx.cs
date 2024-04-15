@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RoundPlayer : MonoBehaviour
+public class movingx: MonoBehaviour
 {
     // speed -Knl
     public float speed = 1f;
