@@ -23,4 +23,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/lvl4_malwar.unity
     guid: 9dbd9d06271022d419c243fe7e3af33d
+  - enabled: 1
+    path: Assets/_Scenes/lvl5.unity
+    guid: c5f2127362a41904e84f43c76000e468
+  - enabled: 1
+    path: Assets/_Scenes/lvl6.unity
+    guid: daacae1e83666c441bfb5dce65d3f09b
   m_configObjects: {}
