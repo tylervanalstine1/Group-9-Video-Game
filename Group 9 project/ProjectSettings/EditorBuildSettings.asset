@@ -8,15 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/_Scenes/Main_Menu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/_Scenes/reallvl1line.unity
+    guid: 9a5fd969d58d2eb46913755072ed734c
   - enabled: 1
     path: Assets/_Scenes/MainMenu.unity
     guid: d78116dab44fc4b91959539f8e66b044
   - enabled: 1
     path: Assets/_Scenes/lvl1.unity
     guid: 962874a404cb44342b858a9c0307f8c3
-  - enabled: 0
-    path: Assets/_Scenes/reallvl1line.unity
-    guid: 9a5fd969d58d2eb46913755072ed734c
   - enabled: 1
     path: Assets/_Scenes/lvl2jump.unity
     guid: 26282948b8a55574292d6c3d619db95c
@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/lvl4_malwar.unity
     guid: 9dbd9d06271022d419c243fe7e3af33d
+  - enabled: 1
+    path: Assets/_Scenes/lvl5.unity
+    guid: c5f2127362a41904e84f43c76000e468
+  - enabled: 1
+    path: Assets/_Scenes/lvl6.unity
+    guid: daacae1e83666c441bfb5dce65d3f09b
   m_configObjects: {}
