@@ -16,6 +16,7 @@ public class Player : MonoBehaviour
     Vector2 moveInput; //2D vector determining what buttons are being pressed
     public bool IsMoving { get; private set; }
     public bool canJump = false; //Whether or not the player can jump
+    public bool bufferingJump = false; //Whether or not a jump input is being buffered
 
     Rigidbody rb; //The player's Rigidbody component
 
@@ -41,12 +42,20 @@ public class Player : MonoBehaviour
         pos.z += vAxis * speed * Time.deltaTime;
         transform.position = pos;
 
-        if(Input.GetKeyDown("space") && canJump){
-            Vector3 vel = rb.velocity;
-            vel.y = jumpPower;
-            rb.velocity = vel;
+        if(Input.GetKeyDown("space")){
+            if(canJump){
+                Jump();
+            }
+            else{
+                bufferingJump = true;
+            }
         }
-
+        if(Input.GetKeyUp("space") && bufferingJump){
+            bufferingJump = false;
+        }
+        if(canJump && bufferingJump){
+            Jump();
+        }
 
        // transform.rotation = Quaternion.Euler(vAxis * pitchMult, hAxis * rollMult, 0);
     }
@@ -63,6 +72,14 @@ public class Player : MonoBehaviour
         moveInput = context.ReadValue<Vector2>();
         IsMoving = moveInput != Vector2.zero;
 
+    }
+
+    public void Jump()
+    {
+        Vector3 vel = rb.velocity;
+        vel.y = jumpPower;
+        rb.velocity = vel;
+        bufferingJump = false;
     }
 
 
