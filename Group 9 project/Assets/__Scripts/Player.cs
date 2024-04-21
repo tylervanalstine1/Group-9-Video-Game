@@ -34,14 +34,14 @@ public class Player : MonoBehaviour
         //the flaots take the input
         float hAxis = Input.GetAxis("Horizontal");
         float vAxis = Input.GetAxis("Vertical");
-        
+
         //this is what moves the object
         Vector3 pos = transform.position;
         pos.x += hAxis * speed * Time.deltaTime;
         pos.z += vAxis * speed * Time.deltaTime;
         transform.position = pos;
 
-        if(Input.GetKeyDown("space") && canJump){
+        if (Input.GetKeyDown("space") && canJump){
             Vector3 vel = rb.velocity;
             vel.y = jumpPower;
             rb.velocity = vel;
