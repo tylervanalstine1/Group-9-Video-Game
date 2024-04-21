@@ -162,7 +162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 108, y: -79}
+  m_AnchoredPosition: {x: 108, y: -80.5}
   m_SizeDelta: {x: 151.6878, y: 70.9336}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635941555
@@ -254,12 +254,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 635941553}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6c699c759376d488e96571e463acf8bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: lvl1
+  sceneName: reallvl1line
 --- !u!114 &635941559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -981,7 +981,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: 0}
+  m_AnchoredPosition: {x: 7, y: 5}
   m_SizeDelta: {x: 78.676, y: 28.7739}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1906087408
