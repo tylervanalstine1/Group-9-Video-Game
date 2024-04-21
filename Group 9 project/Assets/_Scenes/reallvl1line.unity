@@ -835,5 +835,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: deep-relaxation-meditation-nervous-system-healing-200224
       objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783293, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_Volume
+      value: 0.738
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
