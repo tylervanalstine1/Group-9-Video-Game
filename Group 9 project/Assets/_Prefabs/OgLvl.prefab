@@ -33,6 +33,7 @@ Transform:
   - {fileID: 297907764086574405}
   - {fileID: 3967686197168703769}
   - {fileID: 3168859992876917414}
+  - {fileID: 8721577121099570676}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -167,6 +168,68 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4247060805976701504, guid: 40036cba4d95dd24891de809a156ae65, type: 3}
   m_PrefabInstance: {fileID: 1227963254233995494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1769639686044867670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1197542119861075266}
+    m_Modifications:
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7027376586872783292, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+      propertyPath: m_Name
+      value: deep-relaxation-meditation-nervous-system-healing-200224
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+--- !u!4 &8721577121099570676 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7027376586872783266, guid: 108a55b8d611454488fd6fd3cd8b1427, type: 3}
+  m_PrefabInstance: {fileID: 1769639686044867670}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &4068762151222230929
 PrefabInstance:
