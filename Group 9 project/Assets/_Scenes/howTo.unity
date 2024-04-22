@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -140,7 +140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1826159052467821230, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_text
-      value: CONTINUE
+      value: RETURN
       objectReference: {fileID: 0}
     - target: {fileID: 1826159052467821230, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_margin.x
@@ -158,13 +158,21 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+    - target: {fileID: 1826159052467821230, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159052467821233, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1826159052797025699, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_LocalPosition.y
       value: -70
       objectReference: {fileID: 0}
     - target: {fileID: 1826159052930641644, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 139
+      value: 258
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883880, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_Enabled
@@ -172,11 +180,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883884, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 174
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883884, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -164
+      value: -354
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883885, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -525,7 +533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -82, y: 74}
+  m_AnchoredPosition: {x: -82, y: 125}
   m_SizeDelta: {x: 61.841, y: 34.767}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1442300911
@@ -585,8 +593,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 10
-  m_fontSizeBase: 10
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
