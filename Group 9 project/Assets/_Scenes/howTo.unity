@@ -180,7 +180,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883880, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159053341883880, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: sceneName
+      value: MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883880, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: sceneName
@@ -204,7 +208,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883885, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883885, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
