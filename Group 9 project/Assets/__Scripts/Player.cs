@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody))] //Anything with this script must have a Rigidbody component
+[RequireComponent(typeof(Rigidbody))] //Anything with this script must have a Rigidbody component -KPM
 public class Player : MonoBehaviour
 {
     [Header("Inscribed")]
@@ -42,6 +42,7 @@ public class Player : MonoBehaviour
         pos.z += vAxis * speed * Time.deltaTime;
         transform.position = pos;
 
+        //Jumping w/ input buffering implemented by Kyle Mince
         if(Input.GetKeyDown("space")){
             if(canJump){
                 Jump();

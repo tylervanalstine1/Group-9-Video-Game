@@ -748,6 +748,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1826159052930641644, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159052930641644, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159052930641644, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159052930641645, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_fontSize
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159052930641645, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_fontStyle
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159052930641645, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 48
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159052930641645, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1826159053569567311, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_Pivot.x
       value: 0
