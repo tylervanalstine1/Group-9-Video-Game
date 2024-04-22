@@ -176,7 +176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883880, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1826159053341883880, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
+      propertyPath: sceneName
+      value: MainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883884, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -188,7 +192,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883885, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1826159053341883885, guid: 225dde97b80548a48943bd1f339dd93d, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -361,7 +365,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2135712110}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -529,7 +533,7 @@ RectTransform:
   m_LocalScale: {x: 2.1949375, y: 2.249862, z: 1}
   m_Children: []
   m_Father: {fileID: 2135712110}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
