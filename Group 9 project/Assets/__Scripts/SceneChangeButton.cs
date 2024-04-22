@@ -8,8 +8,11 @@ public class SceneChangeButton : MonoBehaviour
 
     void Start()
     {
-        // Register the button's click event to call the LoadScene method
-        GetComponent<Button>().onClick.AddListener(LoadScene);
+        Button buttonVar = GetComponent<Button>();
+        if(buttonVar != null){
+            // Register the button's click event to call the LoadScene method
+            buttonVar.onClick.AddListener(LoadScene);
+        }
     }
 
     void LoadScene()
